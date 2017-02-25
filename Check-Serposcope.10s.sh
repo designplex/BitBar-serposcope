@@ -11,10 +11,10 @@
 # Serposcope: Web search engine Rank Tracker https://serposcope.serphacker.com
 
 # CONFIGURATION
-APP_NAME=Serposcope
+APP_NAME=serposcope
 PROCESS_NAME=serposcope
-PROCESS_STATS_ON=Serposcopeは稼働中
-PROCESS_STATS_OFF=Serposcopeは停止中
+PROCESS_STATS_ON=serposcopeは稼働中
+PROCESS_STATS_OFF=serposcopeは停止中
 FONT_SIZE=14
 FONT_COLOR_ALIVE=#71bbff
 FONT_COLOR_DEAD=#ffffff
@@ -38,8 +38,17 @@ count=`ps -ef | grep $PROCESS_NAME | grep -v grep | wc -l`
         echo "---"
         echo "$PROCESS_STATS_ON"
         echo "---"
+        echo "☑️Check Ranking | href=http://127.0.0.1:7134/"
+        echo "---"
         echo "🚫Stop $APP_NAME | bash=$CMD_KILL_DIR param1=-KILL param2=-f param3=$PROCESS_NAME terminal=false refresh=true"
     fi
     echo ---
-    echo "Serposcope WebSite | href=https://serposcope.serphacker.com/"
+    echo "Information"
+    echo "--WebSite | href=https://serposcope.serphacker.com/"
+        echo "--changelog | href=https://github.com/serphacker/serposcope/blob/master/CHANGELOG.md"
+        echo "--Forum/Support | href=https://forum.serphacker.com"
+        echo "--Documentation"
+            echo "----Install instructions and advanced configuration | href=https://serposcope.serphacker.com/en/doc/install.html"
+            echo "----Quick start | href=https://serposcope.serphacker.com/en/doc/quick-start.html"
+            echo "----Frequently Asked Question | href=https://serposcope.serphacker.com/en/doc/faq.html"
     echo "Refresh | color=#7d7d7d refresh=true"
