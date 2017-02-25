@@ -11,10 +11,10 @@
 # Serposcope: Web search engine Rank Tracker https://serposcope.serphacker.com
 
 # CONFIGURATION
-APP_NAME=serposcope
+APP_NAME=Serposcope
 PROCESS_NAME=serposcope
-PROCESS_STATS_ON=serposcopeは稼働中
-PROCESS_STATS_OFF=serposcopeは停止中
+PROCESS_STATS_ON=Serposcopeは稼働中
+PROCESS_STATS_OFF=Serposcopeは停止中
 FONT_SIZE=14
 FONT_COLOR_ALIVE=#71bbff
 FONT_COLOR_DEAD=#ffffff
