@@ -1,13 +1,4 @@
 #!/bin/bash
-# <bitbar.title>Serposcope Status</bitbar.title>
-# <bitbar.version>v1.0</bitbar.version>
-# <bitbar.author>KEN-G</bitbar.author>
-# <bitbar.author.github>designplex</bitbar.author.github>
-# <bitbar.desc>Serposcope Status and ON/OFF</bitbar.desc>
-# <bitbar.image></bitbar.image>
-# <bitbar.dependencies>bash</bitbar.dependencies>
-# <bitbar.abouturl></bitbar.abouturl>
-
 # Serposcope: Web search engine Rank Tracker https://serposcope.serphacker.com
 
 # CONFIGURATION
@@ -20,7 +11,6 @@ FONT_COLOR_ALIVE=#71bbff
 FONT_COLOR_DEAD=#ffffff
 CMD_OPEN_DIR=/usr/bin/open
 CMD_KILL_DIR=/usr/bin/pkill
-CMD_DELAY_DIR=/bin/sleep
 
 
 # Start
